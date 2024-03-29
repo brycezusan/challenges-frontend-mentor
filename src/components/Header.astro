@@ -1,0 +1,18 @@
+---
+import Tecnologias from "./Tecnologias.astro";
+import ToggleTheme from "./ToggleTheme";
+---
+
+<header class="contenedor space-y-2 pt-8">
+  <h1 class="text-center text-3xl font-bold text-slate-800 dark:text-white">
+    Frontend Mentor Challenges
+  </h1>
+  <p class="text-center text-slate-600 dark:text-gray-200 text-lg">
+    Soluciones de Retos <span class="text-red-500 font-semibold">Frontend</span>
+  </p>
+  <ToggleTheme client:only="react" />
+  <h2 class="text-center text-xl">
+    Tecnologias usadas para dar solucion a los retos
+  </h2>
+  <Tecnologias />
+</header>

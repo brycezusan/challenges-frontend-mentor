@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card';
+import Filtros from '../components/Filtros';
+---
+
+<Layout title="Frontend Mentor | Challengues">
+	<main class="contenedor pt-8 pb-12">
+		<Filtros client:only="react"/>
+	</main>
+</Layout>

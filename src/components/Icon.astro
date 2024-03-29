@@ -1,0 +1,12 @@
+---
+interface Props{
+  label:string
+  ruta:string
+}
+
+const {label , ruta} = Astro.props
+---
+<li class="flex justify-center items-center flex-col gap-1">
+  <img class="w-12 h-12" src={ruta} alt="react img" />
+  <small class="text-center capitalize">{label}</small>
+</li>

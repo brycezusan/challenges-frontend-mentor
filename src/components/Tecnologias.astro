@@ -1,0 +1,13 @@
+---
+import {tecnologies} from "../data/tec"
+import Icon from "../components/Icon.astro"
+
+---
+
+<ul class="flex flex-wrap justify-center gap-10 py-4">
+  {
+    tecnologies.map(tec=>(
+      <Icon label={tec.label} ruta={tec.ruta} />
+    ))
+  }
+</ul>
