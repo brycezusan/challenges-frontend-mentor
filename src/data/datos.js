@@ -379,8 +379,8 @@ export const proyectos = [
     name:'REST Countries API with color theme switcher' ,
     img:'https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/yhq5ihanseyinzwblaw1.jpg',
     level:'avanzado',
-    code:'https://github.com/brycezubi/api-country',
-    live:''
+    code:'https://github.com/brycezusan/countries-app',
+    live:'https://660794c175d7e1a2213c80f5--transcendent-sprite-aa0dfd.netlify.app/'
   },
   {
     id:48,
